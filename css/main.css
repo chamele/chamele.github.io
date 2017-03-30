@@ -68,7 +68,7 @@ a:focus {
 nav {
  margin:auto;
  text-align: center;
- width: 100%;
+ max-width: 100%;
 } 
 nav ul ul {
  display: none;
@@ -78,7 +78,7 @@ display: block;
 width: 150px;
 }
 nav ul {
- background: #53bd84;
+ background: #3c8dbc;
  padding: 0 20px;
  list-style: none;
  position: relative;
@@ -94,7 +94,7 @@ nav ul li{
  float:left;
 }
 nav ul li:hover{
- background:#666;
+ background:#72afd2;
 }
 nav ul li:hover a{
  color:#fff;
@@ -124,7 +124,7 @@ nav ul ul li a{
 }
 
 nav ul ul li a:hover{
- background-color: #666;
+ background-color: #72afd2;
 }
 nav ul ul ul{
  position: absolute;
