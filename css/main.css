@@ -1,0 +1,66 @@
+/*!
+ * Main CSS Chamele Project 0.1.a
+ * Author : Chamele aka Syaiful Nur H
+ * Website : https://chamele.github.io
+ * Based -
+ * Copyright 2017 Chamele Project
+ * Last edit 30 March 2017
+*/
+
+/* Source Sans Pro Font */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
+
+/* General Layout */
+html,
+body {
+  max-height: 100%;
+  max-width: 100%;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+/* Content */
+.content {
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* General Links */
+a {
+  color: #3c8dbc;
+  text-decoration: none;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #72afd2;
+}
+/* Main Header */
+.main-header {
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+}
+/* Logo */
+.logo {
+  text-transform: uppercase;
+}
+/* Main Footer */
+.main-footer {
+  background: #fff;
+  padding: 15px;
+  color: #444;
+  border-top: 1px solid #d2d6de;
+  margin-top: 15px;
+}
+.main-footer-right {
+  float: right;
+}
+@media (max-width: 670px) {
+  .main-footer-right {
+    display: none;
+}
