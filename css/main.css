@@ -68,13 +68,21 @@ a:focus {
 nav {
  margin:auto;
  text-align: center;
+<<<<<<< HEAD
+=======
+ max-width: auto;
+>>>>>>> ca371da032d79e033bdde2a4b8dc2f958c85c08a
 } 
 nav ul ul {
  display: none;
 }
 nav ul li:hover > ul{
 display: block;
+<<<<<<< HEAD
 width: 170px;
+=======
+width: 200px;
+>>>>>>> ca371da032d79e033bdde2a4b8dc2f958c85c08a
 }
 nav ul {
  background: #3c8dbc;
@@ -104,7 +112,7 @@ nav ul li a{
  text-decoration: none;
 }
 nav ul ul{
- background: #53bd84;
+ background: #3c8dbc;
  border-radius: 0px;
  padding: 0;
  position: absolute;
@@ -112,8 +120,8 @@ nav ul ul{
 }
 nav ul ul li{
  float:none;
- border-top: 1px soild #53bd84;
- border-bottom: 1px solid #53bd84;
+ border-top: 1px soild #3c8dbc;
+ border-bottom: 1px solid #3c8dbc;
  position: relative;
 }
 nav ul ul li a{
