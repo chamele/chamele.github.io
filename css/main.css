@@ -74,7 +74,7 @@ nav ul ul {
 }
 nav ul li:hover > ul{
 display: block;
-width: 170px;
+width: 150px;
 }
 nav ul {
  background: #3c8dbc;
