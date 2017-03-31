@@ -1,5 +1,5 @@
 /*!
- * Main CSS Chamele Project 0.1.a
+ * Main CSS Chamele Project 0.1.b
  * Author : Chamele aka Syaiful Nur H
  * Website : https://chamele.github.io
  * Based -
@@ -68,21 +68,13 @@ a:focus {
 nav {
  margin:auto;
  text-align: center;
-<<<<<<< HEAD
-=======
- max-width: auto;
->>>>>>> ca371da032d79e033bdde2a4b8dc2f958c85c08a
 } 
 nav ul ul {
  display: none;
 }
 nav ul li:hover > ul{
 display: block;
-<<<<<<< HEAD
 width: 170px;
-=======
-width: 200px;
->>>>>>> ca371da032d79e033bdde2a4b8dc2f958c85c08a
 }
 nav ul {
  background: #3c8dbc;
